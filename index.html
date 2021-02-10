@@ -1,52 +1,67 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>C80</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="main.js"></script>
+    <head>
+        <title>Project 80</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+        <div style="float: left;">
+        <span>1.</span>
+        <input type="text" id="para1_input1" placeholder="Input Box 1">
+        <br><br>
 
-</head>
-<body>
-<center>
-<h3 style="margin-top: 20px; margin-bottom: 20px; ">
-	List of the students in my class
-</h3>
+        <span>2.</span>
+        <input type="text" id="para1_input2" placeholder="Input Box 2">
+        <br><br>
 
-<div id="rows">
-<span>1</span>
-<input type="text" placeholder="Name of the Student" id="name_of_the_student_1">
-<br>
+        <span>3.</span>
+        <input type="text" id="para1_input3" placeholder="Input Box 3">
+        <br><br>
 
-<span>2</span>
-<input type="text" placeholder="Name of the Student" id="name_of_the_student_2">
-<br>
+        <span>4.</span>
+        <input type="text" id="para1_input4" placeholder="Input Box 4">
+        <br><br>
 
-<span>3</span>
-<input type="text" placeholder="Name of the Student" id="name_of_the_student_3">
-<br>
+        <span>5.</span>
+        <input type="text" id="para1_input5" placeholder="Input Box 5">
+        <br><br>
 
-<span>4</span>
-<input type="text" placeholder="Name of the Student" id="name_of_the_student_4">
-</div>
+        <span>6.</span>
+        <input type="text" id="para1_input6" placeholder="Input Box 6">
+        <br><br>
+        <h1 id="showParagraph1"></h1>
+        <button onclick="getParagraph1()">Get paragraph 1</button></div>
 
-<button onclick="submit()" id="submit_button">
-	Submit
-</button>
+        <div style="float: right;">
+        
+        
+        <span>1.</span>
+        <input type="text" id="para2_input1" placeholder="Input Box 1">
+        <br><br>
 
-<div id="display_name_with_commas">
-</div>
+        <span>2.</span>
+        <input type="text" id="para2_input2" placeholder="Input Box 2">
+        <br><br>
 
-<hr>
+        <span>3.</span>
+        <input type="text" id="para2_input3" placeholder="Input Box 3">
+        <br><br>
 
-<div id="display_name_without_commas">
-</div>
+        <span>4.</span>
+        <input type="text" id="para2_input4" placeholder="Input Box 4">
+        <br><br>
 
+        <span>5.</span>
+        <input type="text" id="para2_input5" placeholder="Input Box 5">
+        <br><br>
 
-<button onclick="sorting()" id="sort_button">
-	Sort
-</button>
-</center>
-
-</script>
-</body>
+        <span>6.</span>
+        <input type="text" id="para2_input6" placeholder="Input Box 6">
+        <br><br>
+        <h1 id="showParagraph2"></h1>
+        <button onclick="getParagraph2()">Get paragraph 2</button></div>
+       
+        <script src="main.js"></script>
+        </center>
+    </body>
 </html>
